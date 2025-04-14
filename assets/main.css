@@ -12,7 +12,8 @@ body h1 {
 }
 
 header.container {
-    /* background-color: #34373c;  */
+    /* background-color: #ffcc9d; */
+    /* color: #fefefe; */
     padding: 2rem;
 }
 
@@ -28,6 +29,11 @@ li {
     margin-bottom: 0.4rem;
 }
 
+.row .column.column-16 {
+    flex: 0 0 16%;
+    max-width: 16%;
+}
+
 .logo {
     height: 100%;
     display: flex;
@@ -36,8 +42,19 @@ li {
 }
 
 .logo img {
-    height: 128px;
-    border-radius: 128px;
+    /* max-width: 128px; */
+    border-radius: 100%;
+}
+
+.title {
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.title > div {
+    display: block;
 }
 
 .title .links {
@@ -49,6 +66,6 @@ li {
 }
 
 .exp img {
-    height: 96px;
+    /* max-width: 96px; */
     /* border-radius: 96px; */
 }
