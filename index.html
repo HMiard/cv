@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Hugo Miard - Curriculum Vitae</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     
     <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="assets/milligram.css">
@@ -14,18 +16,16 @@
 <body>
     <header class="container">
         <div class="row">
-            <div class="column column-16">
-                <div class="logo">
-                    <img alt="Hugo Miard's profile picture" src="assets/img/profile_pic.jpg">
-                </div>
+            <div class="column logo">
+                <img alt="Hugo Miard's profile picture" src="assets/img/profile_pic.jpg">
             </div>
             <div class="column">
                 <div class="title">
                     <div>
                         <h1>Hugo Miard</h1>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/hugo-miard-io" target="_blank"><img alt="linkedin" src="assets/img/linkedin.png" /></a>
-                            &nbsp;||&nbsp; <a href="https://selidjian.xyz" target="_blank"><b>selidjian.xyz</b></a>
+                        <div class="row links">
+                            <div class="column"><a href="https://www.linkedin.com/in/hugo-miard-io" target="_blank"><img alt="linkedin" src="assets/img/linkedin.png" /></a></div>
+                            <div class="column"><a href="mailto:hmiard@pm.me" target="_blank"><b>hmiard@pm.me</b></a></div>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
         <div class="row intro">
             <div class="column">
                 <p>I am a software developer, a science and art enthusiast, and a mountains lover.</p>
-                <p>I spend my time creating software libraries and applications, writing music, trying to meet new people or to discover new technologies, and spend as much time as I can skiing or hiking!</p>
+                <p>I spend my time creating software libraries and applications, writing music, trying to meet new people or to discover new technologies, and as much time as I can skiing or hiking!</p>
                 <p>As a SDE I have had the opportunity to work on large scale systems, databases, small embedded software, CLI utilities, and shared libraries, although I specialize in storage systems optimizations and performance (be it databases, cloud storage, or local I/O).</p>
                 <p>I have explored a wide range of technologies, from the fullstack web to optimizing data storage for large scale datalakes. My technologies of choice at the moment would be <a href="https://openjdk.org/index.html" target="_blank"><b>Java</b></a> (a forever friend), <a href="https://duckdb.org/" target="_blank"><b>DuckDB</b></a>, and low-footprint frontend frameworks (Svelte, boring HTML + CSS).</p>
                 <p>I also found myself working on desktop applications with <a href="https://openjfx.io/" target="_blank"><b>JavaFX</b></a>, <a href="https://libgdx.com/" target="_blank"><b>LibGDX</b></a> or <a href="https://juce.com/" target="_blank"><b>Juce</b></a>.</p>
@@ -67,6 +67,7 @@
                         <b>Principal SDE, Technical lead: 2021-2025</b>
                         <ul>
                             <li>responsible of the technical design and performance of a new generation product</li>
+                            <li>developed and improved performance-sensitive software and systems</li>
                             <li>proposed and guided technical design decisions for a wide range of software components</li>
                             <li>participated in architecture design reviews, records, risk assessment and change control</li>
                             <li>production release management</li>

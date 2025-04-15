@@ -1,10 +1,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+html {
+    font-size: 14px;
+}
+
 body {
-    /* color: #fefefe; */
     font-family: 'Nunito Sans';
     font-weight: 300;
+    line-height: 1.4;
+}
+
+/* tablets */
+@media screen and (min-width: 40rem) {
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        line-height: 1.6;
+    }
+
+    .row .column.logo {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 80rem) {
+   
 }
 
 body h1 {
@@ -12,8 +37,6 @@ body h1 {
 }
 
 header.container {
-    /* background-color: #ffcc9d; */
-    /* color: #fefefe; */
     padding: 2rem;
 }
 
@@ -29,12 +52,7 @@ li {
     margin-bottom: 0.4rem;
 }
 
-.row .column.column-16 {
-    flex: 0 0 16%;
-    max-width: 16%;
-}
-
-.logo {
+.row .column.logo {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -44,6 +62,7 @@ li {
 .logo img {
     /* max-width: 128px; */
     border-radius: 100%;
+    /* box-shadow: 0 0 100px #2AB782; */
 }
 
 .title {
@@ -58,14 +77,11 @@ li {
 }
 
 .title .links {
-    display: flex;
+    font-size: 24px;
 }
 
 .title img {
-    height: 24px;
+    height: 32px;
+    vertical-align: middle;
 }
 
-.exp img {
-    /* max-width: 96px; */
-    /* border-radius: 96px; */
-}
