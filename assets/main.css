@@ -52,6 +52,7 @@ li {
     margin-bottom: 0.4rem;
 }
 
+
 .row .column.logo {
     height: 100%;
     display: flex;
@@ -96,3 +97,12 @@ li {
     vertical-align: middle;
 }
 
+.exp .company {
+    max-width: 12rem;
+}
+
+@media screen and (min-width: 40rem) {
+    .exp .company {
+        flex: 0 0 20%;
+    }
+}
