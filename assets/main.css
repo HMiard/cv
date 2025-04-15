@@ -80,6 +80,17 @@ li {
     font-size: 24px;
 }
 
+@media screen and (max-width: 40rem) {
+    .title h1 {
+        padding-top: 1rem;
+    }
+    
+    .title .links .column {
+        padding-top: 1rem;
+    }
+}
+
+
 .title img {
     height: 32px;
     vertical-align: middle;
