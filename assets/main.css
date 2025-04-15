@@ -11,6 +11,10 @@ body {
     line-height: 1.4;
 }
 
+.container {
+    max-width: 64rem;
+}
+
 /* tablets */
 @media screen and (min-width: 40rem) {
     html {
@@ -50,6 +54,7 @@ p {
 
 li {
     margin-bottom: 0.4rem;
+    list-style-position: outside;
 }
 
 
