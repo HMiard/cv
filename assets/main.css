@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 64rem;
+    max-width: 96rem;
 }
 
 /* tablets */
@@ -26,8 +26,8 @@ body {
     }
 
     .row .column.logo {
-        flex: 0 0 25%;
-        max-width: 25%;
+        flex: 0 0 40%;
+        max-width: 40%;
     }
 }
 
@@ -36,11 +36,16 @@ body {
    
 }
 
-body h1 {
+h1 {
     font-weight: 500;
+    font-size: 4rem;
 }
 
-header.container {
+h2 {
+    font-size: 3.2rem;
+}
+
+header {
     padding: 2rem;
 }
 
@@ -102,8 +107,12 @@ li {
     vertical-align: middle;
 }
 
-.exp .company {
+#exp .company {
     max-width: 12rem;
+}
+
+#exp > .row {
+    padding-top: 2rem;
 }
 
 @media screen and (min-width: 40rem) {

@@ -14,154 +14,161 @@
 </head>
 
 <body>
-    <header class="container">
+    <header></header>
+    <section class="container">
         <div class="row">
-            <div class="column logo">
-                <img alt="Hugo Miard's profile picture" src="assets/img/profile_pic.jpg">
-            </div>
+
             <div class="column">
-                <div class="title">
-                    <div>
-                        <h1>Hugo Miard</h1>
-                        <div class="row links">
-                            <div class="column"><a href="https://www.linkedin.com/in/hugo-miard-io" target="_blank"><img alt="linkedin" src="assets/img/linkedin.png" /></a></div>
-                            <div class="column"><a href="mailto:hmiard@pm.me" target="_blank"><b>hmiard@pm.me</b></a></div>
+                <div class="row">
+                    <div class="column logo">
+                        <img alt="Hugo Miard's profile picture" src="assets/img/profile_pic.jpg">
+                    </div>
+                    <div class="column">
+                        <div class="title">
+                            <div>
+                                <h1>Hugo Miard</h1>
+                                <div class="row links">
+                                    <div class="column"><a href="https://www.linkedin.com/in/hugo-miard-io" target="_blank"><img alt="linkedin" src="assets/img/linkedin.png" /></a></div>
+                                    <div class="column"><a href="mailto:hmiard@pm.me" target="_blank"><b>hmiard@pm.me</b></a></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-            </div>
-        </div>
-    </header>
 
-    <br>
+                <hr/>
 
-    <section class="container content">
-
-        <div class="row intro">
-            <div class="column">
-                <p>I am a software developer, a science and art enthusiast, and a mountains lover.</p>
-                <p>I spend my time creating software libraries and applications, writing music, trying to meet new people or to discover new technologies, and as much time as I can skiing or hiking!</p>
-                <p>As a SDE I have had the opportunity to work on large scale systems, databases, small embedded software, CLI utilities, and shared libraries, although I specialize in storage systems optimizations and performance (be it databases, cloud storage, or local I/O).</p>
-                <p>I have explored a wide range of technologies, from the fullstack web to optimizing data storage for large scale datalakes. My technologies of choice at the moment would be <a href="https://openjdk.org/index.html" target="_blank"><b>Java</b></a> (a forever friend), <a href="https://duckdb.org/" target="_blank"><b>DuckDB</b></a>, and low-footprint frontend frameworks (Svelte, boring HTML + CSS).</p>
-                <p>I also found myself working on desktop applications with <a href="https://openjfx.io/" target="_blank"><b>JavaFX</b></a>, <a href="https://libgdx.com/" target="_blank"><b>LibGDX</b></a> or <a href="https://juce.com/" target="_blank"><b>Juce</b></a>.</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <!-- <h2>Experience</h2> -->
-        
-        <div class="exp">
-            <div class="row">
-                <div class="column company">
-                    <img src="assets/img/sophiagenetics_logo.jpg" alt="SOPHiA GENETICS">
+                <div class="row">
+                    <div id="about-me" class="column">
+                        <h2><a href="#about-me">About me</a></h2>
+                        <p>I am a software developer, a science and art enthusiast, and a mountains lover.</p>
+                        <p>I spend my time creating software libraries and applications, writing music, trying to meet new people or to discover new technologies, and as much time as I can skiing or hiking!</p>
+                        <p>As a SDE I have had the opportunity to work on <b>large scale systems, databases, small embedded software, CLI utilities, and shared libraries,</b> although I specialize in storage systems optimizations and <b>performance</b> (be it databases, cloud storage, or local I/O).</p>
+                        <p>I have explored a wide range of technologies, from the <b>fullstack web</b> to optimizing data storage for large scale <b>datalakes</b>. My technologies of choice at the moment would be <a href="https://openjdk.org/index.html" target="_blank"><b>Java</b></a> (a forever friend), <a href="https://duckdb.org/" target="_blank"><b>DuckDB</b></a>, and low-footprint frontend frameworks (Svelte, good old HTML + CSS).</p>
+                        <p>I also found myself working on desktop applications with <a href="https://openjfx.io/" target="_blank"><b>JavaFX</b></a>, <a href="https://libgdx.com/" target="_blank"><b>LibGDX</b></a> or <a href="https://juce.com/" target="_blank"><b>Juce</b></a>.</p>
+                    </div>
                 </div>
-                <div class="column">
-                    <h3>Principal SDE / Data Services</h3>
-                    <b>@ <a href="https://www.sophiagenetics.com/" target="_blank">SOPHiA GENETICS</a></b>
-                    <i>February 2017 - March 2025</i>
-                    <p></p>
-                    <p>Over my 8 years at SOPHiA, I have worked in a variety of positions and subjects. The following is a rough overview:</p>
-                    <p>
-                        <b>Principal SDE, Technical lead: 2021-2025</b>
+
+                <hr/>
+            </div>
+
+            <div id="exp" class="column">
+                <h2><a href="#exp">Experience</a></h2>
+                <div class="row">
+                    <div class="column company">
+                        <img src="assets/img/sophiagenetics_logo.jpg" alt="SOPHiA GENETICS">
+                    </div>
+                    <div class="column">
+                        <h3>Principal SDE / Data Services</h3>
+                        <b>@ <a href="https://www.sophiagenetics.com/" target="_blank">SOPHiA GENETICS</a></b>
+                        <i>February 2017 - March 2025</i>
+                        <p></p>
+                        <p>Over my 8 years at SOPHiA, I have worked in a variety of positions and subjects.</p>
+                        <p>
+                            Throughout my journey, I played a key role in delivering a performant and reliable product, 
+                            using quick iterations and a pragmatic approach to delivery, while bridging the gap between different teams
+                            (data science, R&D, engineering and bio-pharma notably).
+                        </p>
+                        <p>
+                            <b>Principal SDE, Technical lead</b>: 2021-2025
+                            <ul>
+                                <li>responsible of the technical design and performance of a new generation product</li>
+                                <li>developed and improved performance-sensitive software and systems</li>
+                                <li>proposed and guided technical design decisions for a wide range of software components</li>
+                                <li>participated in architecture design reviews, records, risk assessment and change control</li>
+                                <li>production release management</li>
+                            </ul>
+                        </p>
+    
+                        <p>
+                            <b>Data architect</b>: 2020-2021
+                            <ul>
+                                <li>re-orientation towards building a data-lake for bio-pharma collaboration</li>
+                                <li>developing new tools to leverage genomic insights</li>
+                                <li>customer communication</li>
+                                <li>exploring graph databases</li>
+                                <li>building internal tools to index and link genomic data in accordance to HL7 terms and following GA4GH's VRS</li>
+                            </ul>
+                        </p>
+    
+                        <p>
+                            <b>Java developer</b>: 2017-2019
+                            <ul>
+                                <li>desktop application development using JavaFX</li>
+                                <li>backend maintenance and development of core webservices (Spring/Hibernate)</li>
+                                <li>database query optimisation (MariaDB).</li>
+                            </ul>
+                        </p>
+    
+                        <p>
+                            <b>Transversal skills</b>
+                            <ul>
+                                <li>CI/CD (Gitlab platform, Argo workflows)</li>
+                                <li>Terraform</li>
+                                <li>Quality pipeline</li>
+                                <li>Public talks and code workshops</li>
+                                <li>Table football</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="column company">
+                        <img src="assets/img/moonda_logo.jpg" alt="MOONDA">
+                    </div>
+                    <div class="column">
+                        <h3>Web Developer</h3>
+                        <b>@ <a href="https://www.linkedin.com/company/moonda" target="_blank">MOONDA</a></b>
+                        <i>July 2015 - January 2017</i>
+                        <p></p>
+                        <p><b>Web developer</b><br>(Symfony2, eZ Publish)</p>
+                        <p><b>Android developer</b><br>Java, JNI</p>
+                        <p>
+                            <b>Customer support and maintenance</b> <br>
+                            Some clients I worked with : John Deere, CCI, Orange, Groupe Pichet, FDJ, Kedge BS...
+                        </p>
+                        <p><b>Key skills</b></p>
                         <ul>
-                            <li>responsible of the technical design and performance of a new generation product</li>
-                            <li>developed and improved performance-sensitive software and systems</li>
-                            <li>proposed and guided technical design decisions for a wide range of software components</li>
-                            <li>participated in architecture design reviews, records, risk assessment and change control</li>
-                            <li>production release management</li>
+                            <li>Full stack development (DevOps, Nginx/Apache2, Git/Gitflow, PHP, Angular 1-2, VueJS)</li>
+                            <li>Android development</li>
+                            <li>JavaFX</li>
+                            <li>MySQL, PostgreSQL</li>
+                            <li>Independence, able to keep tight deadlines.</li>
                         </ul>
-                    </p>
-
-                    <p>
-                        <b>Data architect: 2020-2021</b>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="column company">
+                        <img src="assets/img/supinfo.png" alt="SUPINFO">
+                    </div>
+                    <div class="column">
+                        <h3>Teacher</h3>
+                        <b>@ <a href="https://www.supinfo.com/" target="_blank">SUPINFO</a></b>
+                        <i>November 2014 - February 2015</i>
+                        <p></p>
+                        <p><b>Classes given</b></p>
                         <ul>
-                            <li>re-orientation towards building a data-lake for bio-pharma collaboration</li>
-                            <li>developing new tools to leverage genomic insights</li>
-                            <li>customer communication</li>
-                            <li>exploring graph databases</li>
-                            <li>building internal tools to index and link genomic data in accordance to HL7 terms and following GA4GH's VRS</li>
+                            <li>Linear algebra</li>
+                            <li>Algorithmic with Python</li>
                         </ul>
-                    </p>
-
-                    <p>
-                        <b>Java developer: 2017-2019</b>
+                    </div>
+                </div>
+    
+                <hr>
+    
+                <div class="row">
+                    <div class="column company">
+                        <img src="assets/img/computer.png" alt="Older experiences">
+                    </div>
+                    <div class="column">
+                        <h3>Older experiences</h3>
                         <ul>
-                            <li>desktop application development using JavaFX</li>
-                            <li>backend maintenance and development of core webservices (Spring/Hibernate)</li>
-                            <li>database query optimisation (MariaDB).</li>
+                            <li><b>PHP fullstack developer</b> @ <b><a href="#">Mecajob</a></b> (4 months)</li>
+                            <li><b>PHP fullstack developer</b> @ <b><a href="#">Numeribest</a></b> (3 months)</li>
                         </ul>
-                    </p>
-
-                    <p>
-                        <b>Transversal skills</b>
-                        <ul>
-                            <li>CI/CD (Gitlab platform, Argo workflows)</li>
-                            <li>Terraform</li>
-                            <li>Quality pipeline</li>
-                            <li>Public talks and code workshops</li>
-                            <li>Table football</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="column company">
-                    <img src="assets/img/moonda_logo.jpg" alt="MOONDA">
-                </div>
-                <div class="column">
-                    <h3>Web Developer</h3>
-                    <b>@ <a href="https://www.linkedin.com/company/moonda" target="_blank">MOONDA</a></b>
-                    <i>July 2015 - January 2017</i>
-                    <p></p>
-                    <p><b>Web developer</b><br>(Symfony2, eZ Publish)</p>
-                    <p><b>Android developer</b><br>Java, JNI</p>
-                    <p>
-                        <b>Customer support and maintenance</b> <br>
-                        Some clients I worked with : John Deere, CCI, Orange, Groupe Pichet, FDJ, Kedge BS...
-                    </p>
-                    <p><b>Key skills</b></p>
-                    <ul>
-                        <li>Full stack development (DevOps, Nginx/Apache2, Git/Gitflow, PHP, Angular 1-2, VueJS)</li>
-                        <li>Android development</li>
-                        <li>JavaFX</li>
-                        <li>MySQL, PostgreSQL</li>
-                        <li>Independence, able to keep tight deadlines.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="column company">
-                    <img src="assets/img/supinfo.png" alt="SUPINFO">
-                </div>
-                <div class="column">
-                    <h3>Teacher</h3>
-                    <b>@ <a href="https://www.supinfo.com/" target="_blank">SUPINFO</a></b>
-                    <i>November 2014 - February 2015</i>
-                    <p></p>
-                    <p><b>Classes given</b></p>
-                    <ul>
-                        <li>Linear algebra</li>
-                        <li>Algorithmic with Python</li>
-                    </ul>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <div class="column company">
-                    <img src="assets/img/computer.png" alt="Older experiences">
-                </div>
-                <div class="column">
-                    <h3>Older experiences</h3>
-                    <ul>
-                        <li><b>PHP fullstack developer</b> @ <b><a href="#">Mecajob</a></b> (4 months)</li>
-                        <li><b>PHP fullstack developer</b> @ <b><a href="#">Numeribest</a></b> (3 months)</li>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </div>
