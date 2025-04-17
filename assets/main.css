@@ -115,7 +115,7 @@ li {
 
 .title img {
     height: 32px;
-    vertical-align: middle;
+    vertical-align: sub;
     padding-right: 1rem;
 }
 
