@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 96rem;
+    max-width: 128rem;
 }
 
 /* tablets */
@@ -37,7 +37,14 @@ body {
 
 /* desktop */
 @media screen and (min-width: 80rem) {
-   
+   section > .row {
+       margin-left: -3.0rem;
+       width: calc(100% + 6.0rem);
+   }
+
+   section > .row > .column  {
+       padding: 0 3rem;
+   }
 }
 
 h1 {
@@ -112,11 +119,11 @@ li {
     padding-right: 1rem;
 }
 
-#exp .company {
+#exp .company-logo {
     max-width: 12rem;
 }
 
-#exp > .row {
+#exp .company {
     padding-top: 2rem;
 }
 
