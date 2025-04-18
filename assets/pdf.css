@@ -1,0 +1,12 @@
+header {
+    padding: 0rem;
+}
+
+.only-small-screen {
+    display: none;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
