@@ -15,28 +15,46 @@
 <body>
     <header></header>
     <section class="container">
-        <div class="row">
+        <div>
 
-            <div class="column">
+            <div>
+               
                 <div class="row">
-                    <div class="column logo">
-                        <img alt="Hugo Miard's profile picture" src="assets/img/profile_pic.jpg">
-                    </div>
+
                     <div class="column">
-                        <div class="title">
+                         <div class="row">
+                            <div class="column logo">
+                                <img alt="Hugo Miard's profile picture" src="assets/img/profile_pic.jpg">
+                            </div>
                             <div class="column">
-                                <h1>Hugo Miard</h1>
-                                <div id="links">
-                                    <a href="https://www.linkedin.com/in/hugo-miard-io" target="_blank"><img alt="linkedin" src="assets/img/linkedin.png" /></a>
-                                    <a href="mailto:hmiard@pm.me" target="_blank"><b>hmiard@pm.me</b></a>
-                                </div>
-                                <div id="languages">
-                                    <img src="assets/img/france.png" alt="French">
-                                    <img src="assets/img/united-kingdom.png" alt="English">
+                                <div class="title">
+                                    <div class="column">
+                                        <h1>Hugo Miard</h1>
+                                        <div id="links">
+                                            <a href="https://www.linkedin.com/in/hugo-miard-io" target="_blank"><img alt="linkedin" src="assets/img/linkedin.png" /></a>
+                                            <a href="mailto:hmiard@pm.me" target="_blank"><b>hmiard@pm.me</b></a>
+                                        </div>
+                                        <div id="languages">
+                                            <img src="assets/img/france.png" alt="French">
+                                            <img src="assets/img/united-kingdom.png" alt="English">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
+                    </div>
+
+                    <div id="skills" class="column">
+                        <h2><a href="#skills">Key skills</a></h2>
+                        <ul>
+                            <li><b>Software development</b>: Java, Python, C, C++, Javascript</li>
+                            <li><b>Database engines</b>: SQL, query planning, indexes, performance</li>
+                            <li><b>API design</b>: SDKs and libraries, protocol design</li>
+                            <li><b>Pragmatic development</b>: experimentation, communication, iteration</li>
+                            <li><b>Software lifecycle</b>: tests, CI, CD, infrastructure</li>
+                            <li><b>Software infrastructure</b>: Terraform, Kubernetes, Helm</li>
+                            <li><b>Cloud providers</b>: Azure, AWS</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -52,26 +70,9 @@
                 </div>
 
                 <hr/>
-
-                <div class="row">
-                    <div id="skills" class="column">
-                        <h2><a href="#skills">Key skills</a></h2>
-                        <ul>
-                            <li><b>Software development</b>: Java, Python, C, C++, Javascript</li>
-                            <li><b>API design</b>: SDKs and libraries, protocol design</li>
-                            <li><b>Database engines</b>: SQL, query planning, indexes, performance</li>
-                            <li><b>Software lifecycle</b>: tests, CI, CD, infrastructure</li>
-                            <li><b>Pragmatic development</b>: experimentation, communication, iteration</li>
-                            <li><b>Cloud providers</b>: Azure, AWS</li>
-                            <li><b>Software infrastructure</b>: Terraform, Kubernetes, Helm</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <hr class="only-small-screen"/>
             </div>
 
-            <div id="exp" class="column">
+            <div id="exp">
                 <h2><a href="#exp">Experience</a></h2>
                 <article class="company">
                     <div class="row">
@@ -89,7 +90,7 @@
                     <div class="row">
                         <div class="column">
                             <p>
-                                Over my 8 years at SOPHiA, I have worked in a variety of positions and subjects, at a global scale.
+                                Over my 8 years at SOPHiA, I have worked in a variety of positions and subjects, at a global scale.<br/>
                                 Throughout my journey, I played a key role in delivering a performant and reliable product, 
                                 using quick iterations and a pragmatic approach to delivery, while bridging the gap between different teams.
                             </p>
